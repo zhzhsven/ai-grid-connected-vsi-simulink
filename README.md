@@ -1,5 +1,9 @@
 # AI Grid-Connected VSI Simulink
 
+This repository is an experiment in an AI-assisted Simulink workflow with Codex: starting from engineering specifications, generating a switching Simscape Electrical model, running simulations, analyzing results, organizing documentation, and publishing a reproducible GitHub repository.
+
+![AI-assisted Simulink workflow with Codex](figures/ai_assisted_simulink_workflow_codex.png)
+
 Switching-level Simscape Electrical model of a three-phase grid-connected two-level voltage source inverter with an LCL output filter, SPWM modulation, dead time, SRF-PLL synchronization, and closed-loop dq current control.
 
 The project is intended as a stable first-iteration engineering baseline rather than an aggressively optimized design. The inverter power stage is modeled as a detailed switching Simscape Electrical converter; the controller, PLL, SPWM, and dead-time logic are implemented as discrete Simulink/MATLAB control logic.
@@ -178,6 +182,7 @@ open_system("model/three_phase_grid_vsi_lcl.slx")
 |-- docs/
 |   `-- grid_converter_analysis_report.txt
 |-- figures/
+|   |-- ai_assisted_simulink_workflow_codex.png
 |   |-- converter_side_ripple.png
 |   |-- current_step_response.png
 |   |-- dq_current_tracking.png
