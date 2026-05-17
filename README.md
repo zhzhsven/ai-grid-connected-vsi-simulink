@@ -175,27 +175,27 @@ open_system("model/three_phase_grid_vsi_lcl.slx")
 
 ```text
 .
-├── docs/
-│   └── grid_converter_analysis_report.txt
-├── figures/
-│   ├── converter_side_ripple.png
-│   ├── current_step_response.png
-│   ├── dq_current_tracking.png
-│   ├── grid_abc_voltage_current.png
-│   ├── grid_current_harmonics.png
-│   └── pll_frequency_angle.png
-├── model/
-│   └── three_phase_grid_vsi_lcl.slx
-├── scripts/
-│   ├── analyze_results.m
-│   ├── build_three_phase_grid_converter_model.m
-│   ├── design_lcl_filter.m
-│   ├── grid_converter_control_sfun.m
-│   ├── inv_params_init.m
-│   ├── run_simulation.m
-│   └── tune_dq_pll_controllers.m
-├── .gitignore
-└── README.md
+|-- docs/
+|   `-- grid_converter_analysis_report.txt
+|-- figures/
+|   |-- converter_side_ripple.png
+|   |-- current_step_response.png
+|   |-- dq_current_tracking.png
+|   |-- grid_abc_voltage_current.png
+|   |-- grid_current_harmonics.png
+|   `-- pll_frequency_angle.png
+|-- model/
+|   `-- three_phase_grid_vsi_lcl.slx
+|-- scripts/
+|   |-- analyze_results.m
+|   |-- build_three_phase_grid_converter_model.m
+|   |-- design_lcl_filter.m
+|   |-- grid_converter_control_sfun.m
+|   |-- inv_params_init.m
+|   |-- run_simulation.m
+|   `-- tune_dq_pll_controllers.m
+|-- .gitignore
+`-- README.md
 ```
 
 ## Notes
