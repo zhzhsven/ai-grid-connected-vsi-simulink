@@ -1,0 +1,48 @@
+# MATLAB autosave and editor files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB generated data and reports that can be regenerated
+*.mat
+*.fig
+*.mlx
+*.mlappinstall
+*.mltbx
+
+# Simulink generated caches and build artifacts
+slprj/
+slexprj/
+*_ert_rtw/
+*_grt_rtw/
+*_slrt_rtw/
+*_sharedutils/
+*.slxc
+*.mex*
+*.coderdata
+*.rtw
+*.mk
+*.obj
+*.o
+
+# Simscape generated artifacts
+sscprj/
+*.sscsl
+
+# Code generation and coverage output
+codegen/
+html/
+covhtml/
+*.cvt
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+~$*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini

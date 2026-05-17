@@ -1,0 +1,28 @@
+Three-phase grid-connected VSI baseline analysis
+Generated: 2026-05-16 11:04:06
+
+Assumptions
+  VAC and IAC_ref are phase peak amplitudes.
+  Power stage is a detailed switching Simscape Electrical converter.
+  Controller and PLL are discrete control logic at 5e-05 s.
+
+LCL filter
+  L1 = 0.002 H, R1 = 0.05 Ohm
+  Cf = 1e-05 F, Rd = 2.72166 Ohm
+  L2 = 0.001 H, R2 = 0.05 Ohm
+  fres = 1949.24 Hz
+  Estimated design ripple = 2.500 A p-p
+
+Controller and PLL
+  Current PI Kp = 7.53982, Ki = 251.327, bandwidth = 400.00 Hz
+  PLL PI Kp = 1.11055, Ki = 148.044, bandwidth = 30.00 Hz
+
+Measured analysis
+  Converter-side phase-A ripple = 2.6735 A p-p, meets spec = 1
+  Grid current fundamental = 14.9343 A peak
+  Grid current THD = 10.2930 %
+  Max h>=2 harmonic = 1.1940 A peak, limit = 1.5000 A peak, meets spec = 1
+  Raw 2% step settling time = NaN s
+  2 ms moving-average 5% step settling time = 0.001394 s
+  Final id mean/std over last 50 ms = 15.0005 / 0.8612 A
+  Step min/max id in first 100 ms = 12.8325 / 30.4109 A
